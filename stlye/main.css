@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 0 0 10px #089da1;
+          box-shadow: 0 0 10px #089da1;
+  background-color: #fff;
+  left: 0;
+  z-index: 11111;
+}
+header nav .social_icon i {
+  margin: 0 5px;
+  font-size: 20px;
+  color: rgb(42, 92, 150);
+}
+header nav ul {
+  list-style: none;
+}
+header nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
+header nav li a {
+  text-decoration: none;
+  color: rgb(42, 92, 150);
+  font-size: 20px;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+header nav .logo img {
+  width: 100px;
+  margin: 8px 0;
+}
+
+.ss {
+  text-align: center;
+  font-size: 80px;
+  color: #44887e;
+}
+
+.first-section {
+  width: 100%;
+  height: 90vh;
+}
+.first-section h1 {
+  font-size: 80px;
+  color: #089da1;
+  margin-left: 10px;
+  text-align: center;
+}
+.first-section .perant-div {
+  background: url(img/bg.png);
+  background-size: cover;
+}
+.first-section .perant-div .div0img {
+  text-align: center;
+}
+.first-section .perant-div .div0img img {
+  margin: 10px;
+  text-align: center;
+}
+.first-section .perant-div h2 {
+  font-size: 70px;
+  margin-left: 10px;
+}
+.first-section .perant-div .intro {
+  font-size: 20px;
+  color: #0a7174;
+  margin-left: 10px;
+}
+.first-section .perant-div .btn-first-section {
+  border: #089da1;
+  background-color: #31579d;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.card-perant {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  overflow-x: scroll;
+  margin: 10px;
+}
+.card-perant .card {
+  height: 200px;
+  width: 285px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 10px #089da1;
+          box-shadow: 0 0 10px #089da1;
+  margin: 10px;
+}
+.card-perant .card .i {
+  color: #089da1;
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+.new-book {
+  margin-top: 100px;
+}
+.new-book h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #44887e;
+}
+.new-book .perant-of-book {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  overflow-x: scroll;
+  text-align: center;
+  margin: 10px;
+}
+.new-book .center-book {
+  height: 300px;
+  width: 285px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 10px #089da1;
+          box-shadow: 0 0 10px #089da1;
+  margin: 10px;
+}
+.new-book .card-book img {
+  width: 100px;
+}
+
+.section-Featured-books h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #44887e;
+}
+.section-Featured-books .center-Featured {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow-x: scroll;
+  text-align: center;
+  margin: 10px;
+}
+.section-Featured-books .Featured-books {
+  height: 250px;
+  width: 285px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 10px #089da1;
+          box-shadow: 0 0 10px #089da1;
+  margin: 10px;
+}
+.section-Featured-books .Featured-books img {
+  width: 100px;
+  margin-top: 10px;
+}
+
+footer .center-footer {
+  height: 20vh;
+  background: black;
+  text-align: center;
+}
+footer .center-footer h1 {
+  color: #fff;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+footer .center-footer h1 span {
+  color: rgb(81, 51, 179);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0a7174;
+  border-radius: 30px;
+}
+
+@media (max-width: 767px) { /* mobile & tablet Rules */
+  .perant-div .div0img img {
+    width: 380px;
+  }
+}
+@media (min-width: 768px) { /* small screen Rules */
+  .perant-div .div0img img {
+    width: 580px;
+  }
+}
+@media (min-width: 992px) { /* medium screen Rules */ }
+@media (min-width: 1200px) { /* large screen Rules */ }
